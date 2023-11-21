@@ -1,16 +1,12 @@
 import React from "react";
+import '../style.css';
 
 export default function Statistiques() {
-    const tableStyle = {
-        margin: "auto",
-        marginTop: "50px",
-        borderCollapse: "collapse"
-    };
 
   return (
-    <div>
+    <div className="table-container">
       <h2>Classement NBA</h2>
-      <table style={tableStyle}>
+      <table>
         <thead>
           <tr>
             <th>Classement</th>
