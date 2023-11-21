@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.containHeader {
+  background-color: rgb(74, 82, 82);
+}
+
+.containHeader .title {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+th {
+  text-align: center;
+  background-color: #4e555b;
+  color: white;
+  border: solid white 2px;   
+  width: 300px;
+}
+
+td {
+  text-align: center;
+}
+
+td, th {
+  padding: 15px;
+  border: solid black 1px;
+  border-collapse: collapse;
+}
